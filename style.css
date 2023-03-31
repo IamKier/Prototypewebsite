@@ -64,6 +64,10 @@ a:hover { color: var(--primary-color); }
 /*
 * Main Header
 */
+.banner{
+  position: relative;
+  z-index: 10;
+}
 .header {
   z-index: 2;
 }
