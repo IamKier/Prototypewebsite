@@ -86,7 +86,7 @@ a:hover { color: var(--primary-color); }
 
 }
 .navbar-brand:hover{
-  color:#fff;
+  color:#fff; 
 }
 .nav-link {
 
