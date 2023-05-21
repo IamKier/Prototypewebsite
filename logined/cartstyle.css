@@ -1,0 +1,229 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+  font-size: 18px;
+  
+}
+.container {
+  text-align: center;
+  max-width: 800px 25in; 
+  margin: 1em auto; 
+  background:#FFF; 
+  padding:30px;
+  border-radius:5px;
+
+}
+.product {
+  padding:1em; 
+  border:1px solid #E0E4CC; 
+  margin-right:1em; 
+  border-radius:5px;
+  margin:0; padding:0;
+}
+.productcont{
+  font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+  padding:15px 9%;
+  padding-bottom: 100px;
+}
+.productcont .heading{
+  text-align: center;
+    padding-bottom: 15px;
+    color:#fff;
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    font-size: 50px;
+}
+.productcont .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap:10px;
+}
+
+.productcont .box-container .product{
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  border-radius: 5px;
+  background: #fff;
+  text-align: center;
+  padding:30px 20px;
+}
+
+.productcont .box-container.product img{
+  height: 80px;
+}
+
+.productcont .box-container .product h3{
+  color:#444;
+  font-size: 22px;
+  padding:10px 0;
+}
+.productcont .box-container .product p{
+  color:#777;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.productcont .box-container .product .btn{
+  margin-top: 10px;
+  display: inline-block;
+  background:#333;
+  color:#fff;
+  font-size: 17px;
+  border-radius: 5px;
+  padding: 8px 25px;
+}
+
+.productcont .box-container .product .btn:hover{
+  letter-spacing: 1px;
+}
+
+.productcont .box-container .product:hover{
+  box-shadow: 0 10px 15px rgba(0,0,0,.3);
+  transform: scale(1.03);
+}
+.cart-container {
+  border:1px solid #E0E4CC;
+  border-radius:5px;
+  margin-top:1em;
+  padding:1em;
+}
+button, input[type="submit"] { 
+    border:1px solid #000000; 
+    color:#fff; 
+    background: #413e3c; 
+    padding:0.6em 1em;
+    font-size:1em; 
+    line-height:1; 
+    border-radius: 1.2em;
+    transition: color 0.2s ease-in-out, background 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+button:hover, button:focus, button:active, input[type="submit"]:hover, input[type="submit"]:focus, input[type="submit"]:active {
+    background: #b4bdbc;
+    border-color:#dce0e0;
+    color:#000;
+    cursor: pointer;
+}
+table {
+  margin-bottom:1em;
+  border-collapse:collapse;
+}
+table td, table th {
+  text-align:left;
+  padding:0.25em 1em;
+  border-bottom:1px solid #E0E4CC;
+}
+#carttotals {
+  margin-right:0;
+  margin-left:auto;
+}
+.cart-buttons {
+  width:auto;
+  margin-right:0;
+  margin-left:auto;
+  display:flex;
+  justify-content:flex-end;
+  padding:1em 0;
+}
+#emptycart {
+  margin-right:1em;
+}
+table td:nth-last-child(1) {
+  text-align:right;
+}
+.message {
+  border-width: 1px 0px;
+  border-style:solid;
+  border-color:#c1cccb;
+  color:#d1dbdb;
+  padding:0.5em 0;
+  margin:1em 0;
+}
+/*--- navigation bar ---*/
+.navbar {
+
+  background:#472c14;
+
+}
+.nav-link, .navbar-brand {
+
+  color: #fff;
+
+  cursor: pointer;
+
+}
+.navbar-brand:hover{
+  color:#fff; 
+}
+.nav-link {
+
+  margin-right: 1em !important;
+
+}
+.nav-link:hover {
+
+  color: #000;
+}
+.navbar-collapse {
+
+  justify-content: flex-end;
+
+}
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-decoration: none;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+  }
+  
+  nav ul li:hover > ul {
+    display: block;
+  }
+  
+  nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #333;
+  }
+  
+  nav ul ul li {
+    display: block;
+  }
+  
+  nav ul ul li a {
+    padding: 10px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+  }
+
+#log-in:hover{
+  color:#ffffff;
+  background-color: #000;
+}
+
+/*--- images ---*/
+.drink_img{
+   max-width: 90%;
+    max-height: 90%;
+    object-fit: cover;
+    object-position: center;
+}
